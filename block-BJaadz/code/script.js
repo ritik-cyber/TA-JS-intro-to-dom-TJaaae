@@ -1,11 +1,12 @@
 // Select the h1 element and store it in a variable named heading.
+let heading = document.querySelector('h1')
 
 // Check the typeof heading and log it.
-
+console.log(typeof heading)
 // Change the color of heading to black.
-
+console.log(heading.style = "red")
 // Select all the hr elements and store it in a variable named allHrs using querySelectorAll
-
+let allHrs = document.querySelectorAll('hr')
 /* 
 Convert the NodeList returned by querySelectorAll to Array using Array.from() or spread operator and store it in allHrsArray
 
@@ -16,6 +17,8 @@ let allHrsArray = Array.from(allHrs)
 */
 
 // Set the border of the all the hr elements to "1px solid tomato"
+
+let setBorder = allHrs.forEach(ele => ele.style = "1px solid tomato" )
 
 // Change the background of all the hr to "antiquewhite" using for of loop.
 
