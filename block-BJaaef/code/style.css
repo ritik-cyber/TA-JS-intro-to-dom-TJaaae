@@ -172,17 +172,24 @@ h1,
 h2 {
   text-align: center;
 }
-button {
+
+.btn {
   background-color: #e7edfd;
+  width: 100%;
   color: #6583f0;
   border: #e7edfd;
   padding: 0.2rem 3rem;
   margin-top: 0.6rem;
+  text-decoration: none;
 }
 .box-1 {
   background-color: #fff;
   border-radius: 0.5rem;
   text-align: center;
+  margin-top: 0.5rem;
+}
+.tool {
+  margin: 0.6rem 0;
 }
 .flex-30 {
   flex: 0 1 30%;
@@ -200,4 +207,13 @@ h3 {
 }
 .wrap {
   flex-wrap: wrap;
+}
+.flex-1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.flex {
+  display: flex;
+  justify-content: space-around;
 }
